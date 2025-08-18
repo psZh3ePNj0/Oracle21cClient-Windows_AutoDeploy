@@ -103,7 +103,7 @@ try{
 						write-host "Oracle home is: " $Hloc
 						write-host
 						write-host "Please review contents of ORACLE_HOME $Hloc for appropriate action."
-						write-host "If required, contact C1B Oracle DBAs for guidance."
+						write-host "If required, contact your Oracle DBAs for guidance."
 						write-host "Continuing search for Oracle21c 64bit Client."
 						write-host
 						write-host ====================================================================================================
