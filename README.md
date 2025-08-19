@@ -10,18 +10,20 @@
 <br/>
 <br/>
 
-  - Oracle21c is the incoming Client Install; Oracle12c is the existing default client.
-  - Uninstall scripts to be run AFTER install scripts should ROLLBACK be required.
-  - Oracle 21c Silent install performs ADMIN installation. If another installation type is desired - scripts will need modifying. 
-  - Installation / log / source files are generic templates, however C and D drives are default base points. If needed please tailor to your environment.
+  - Oracle21c is the incoming Client Install: Oracle12c is the existing default client.
+  - Uninstall scripts to be run AFTER install scripts should ROLLBACK be required. 
+  - Within POWERSHELL scripts:
+    - Variable <APPROPRIATE_PATH> is to be replaced with your desired path.
+    - Installation / log / source files are generic templates, however C and D drives are default base points. Please tailor to your environment.
+    - Oracle 21c Silent install performs ADMIN installation. If another installation type is desired - please tailor to your environment.
   - For the Client -  Oracle 21C Windows Client [64 bit / 32 bit] installation is used for the silent install. 
     - Please see at: https://www.oracle.com/database/technologies/oracle21c-windows-downloads.html
-  - Default response file provided [response_file](https://github.com/psZh3ePNj0/Oracle21cClient-Windows_AutoDeploy/blob/main/install_OraClientHome.rsp). 
+  - Default 21c install response file provided [21c install response_file](https://github.com/psZh3ePNj0/Oracle21cClient-Windows_AutoDeploy/blob/main/install_oracle_client_administrator_21c.rsp)
     - PLEASE tailor response file according to your requirements. 
     - NOTE: after making your changes - response file needs to be placed in the $ORACLE_HOME/client directory. Rename response file to meet your requirements (ex oracle21_installclient-cdrive.rsp)
   - Powershell Uninstall script should dynamically generate uninstall response file (based on ADMIN installation). However, a default uninstall response file is provided [uninstall response_file](https://github.com/psZh3ePNj0/Oracle21cClient-Windows_AutoDeploy/blob/main/deinstall_OraClientHome.rsp). 
     - PLEASE tailor uninstall response file according to your requirements. 
-    - NOTE: after making your changes - uninstall response file needs to be placed in the $ORACLE_HOME/client directory. Rename uninstall response file to meet your requirements (ex oracle21_installclient-cdrive.rsp)
+    - NOTE: after making your changes - uninstall response file needs to be placed in the $ORACLE_HOME/client directory. Rename uninstall response file to meet your requirements (ex oracle21_uninstallclient-cdrive.rsp)
 
 <br/>
 
