@@ -43,6 +43,6 @@
 
 <h2>Additional Reference Sources </h2>
 
-- <b>https://silentinstallhq.com/oracle-database-19c-client-install-and-uninstall-powershell/</b>
+- <b>https://silentinstallhq.com/oracle-database-21c-client-silent-install-how-to-guide/</b>
 - <b>https://docs.oracle.com/cd/E83817_01/UDMIG/silent-installation.htm</b>
 <br/>
