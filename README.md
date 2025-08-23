@@ -1,9 +1,9 @@
-<h5><b><i>Note to Reader: Where feasible the source code [sanitized version] will readily be provided. For the original source code, there are cases where IP | Copyright factors may apply. In those cases the original source code cannot be published without the StakeHolders consent. 
+<h5><b><i>Note to Reader: Where feasible the source code [sanitized version] will be readily provided. For the original source code, there are cases where IP | Copyright factors may apply. In those cases the original source code cannot be published without the StakeHolders consent. 
 <br/>
 <br/>
-You will have to make changees and test thoroughly [per best practice] before using these scripts in any production capacity. Thank you for your understanding.</b></i></h5>
+You will have to make changes and test thoroughly [as per best practice] before using any supplied source code here in any production capacity. Thank you for your understanding.</b></i></h5>
 <br/>
-
+  
 <h1>Oracle21cClient-Windows_AutoDeploy</h1>
 <br/>
 
