@@ -1,4 +1,4 @@
-<h5><b><i>Note to Reader: Where permissible - the source code will readily be provided. There are cases where IP | Copyright factors apply. In those cases the source code cannot be published without the StakeHolders consent. Thank you for your understanding.</b></i></h5>
+<h5><b><i>Note to Reader: Where feasible the source code [sanitized version] will readily be provided. For the original source code, there are cases where IP | Copyright factors may apply. In those cases the original source code cannot be published without the StakeHolders consent. Thank you for your understanding.</b></i></h5>
 <br/>
 
 <h1>Oracle21cClient-Windows_AutoDeploy</h1>
@@ -6,8 +6,16 @@
 
 
 <h2>Description</h2>
-<b>Oracle21c Client (Windows) Install and UnInstall (Rollback) PowerShell scripts for 32 bit / 64 bit Architecture. Scripts are based on the below points:</b>
-<br/>
+<b>Oracle21c Client (Windows) Install and UnInstall (Rollback) PowerShell scripts for 32 bit / 64 bit Architecture.</b>
+
+  - [Install 21c 32 Bit](https://github.com/psZh3ePNj0/Oracle21cClient-Windows_AutoDeploy/blob/main/Install_21c32.ps1)
+  - [Install 21c 64 Bit](https://github.com/psZh3ePNj0/Oracle21cClient-Windows_AutoDeploy/blob/main/Install_21c64.ps1)
+  - [UnInstall 21c 32 Bit](https://github.com/psZh3ePNj0/Oracle21cClient-Windows_AutoDeploy/blob/main/UnInstall_21c32.ps1)
+  - [UnInstall 21c 64 Bit](https://github.com/psZh3ePNj0/Oracle21cClient-Windows_AutoDeploy/blob/main/Install_21c64.ps1)
+<br/>  
+
+
+<b>Scripts are based on the below points:</b>
 <br/>
 
   - Oracle21c is the incoming Client Install: Oracle12c is the existing default client.
